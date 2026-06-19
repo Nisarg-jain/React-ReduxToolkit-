@@ -15,7 +15,7 @@ function AddTodo() {
   };
 
   return (
-    <form onSubmit={addTodoHandler} className="flex gap-2 max-w-md mx-auto my-6 px-4">
+    <form onSubmit={addTodoHandler} className="flex gap-2 max-w-md mx-auto my-6 px-4 padddingupx-6 py-4 bg-gray-900 border border-gray-700 rounded">
       <input
         type="text"
         placeholder="Enter a Todo..."
